@@ -40,6 +40,7 @@ describe("Select component", () => {
     it("should use default handleChange", () => {
       const result = Select.defaultProps.handleChange();
       expect(result).toBe('Test');
+      // expect(result).toBe(undefined);
     });
   });
 });

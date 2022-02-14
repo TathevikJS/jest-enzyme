@@ -25,6 +25,7 @@ const NEWS = [
 
 const Posts = () => (
   <ul className="newsList">
+    {/* <li>{'ok'}</li> npm test -u */}
     {NEWS.map(
       ({ author, created_at, num_comments, objectID, title, points, url }) => (
         <Post

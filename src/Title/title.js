@@ -9,6 +9,6 @@ Title.propTypes = {
 
 Title.defaultProps = {
   title: "Simple title",
-};
+}; 
 
 export default Title;
